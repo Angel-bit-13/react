@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 import axios from 'axios'
 
 const Users = () => {
-  const [userDetails,setUserDetails] =useState()
+  const [userDetails,setUserDetails] =useState([])
   const [error,setError] =useState(null)
 
   useEffect(()=>{
